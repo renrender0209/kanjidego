@@ -1,0 +1,8 @@
+[
+null,
+{"id":1,"expanded":true,"name":"最初","order":1,"parentId":0,"scrollX":918,"scrollY":625},
+{"id":2,"expanded":false,"name":"STAGE","order":3,"parentId":0,"scrollX":918,"scrollY":681},
+{"id":3,"expanded":true,"name":"モード","order":2,"parentId":0,"scrollX":918,"scrollY":681},
+{"id":4,"expanded":true,"name":"セットアップ","order":4,"parentId":0,"scrollX":918,"scrollY":681},
+{"id":5,"expanded":false,"name":"漢字調整用マップ","order":5,"parentId":4,"scrollX":918,"scrollY":681}
+]
