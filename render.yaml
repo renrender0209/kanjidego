@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: kanjidego
+    runtime: static
+    staticPublishPath: www
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+      - path: /audio/*
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /img/*
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /fonts/*
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /js/*
+        name: Cache-Control
+        value: public, max-age=86400
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

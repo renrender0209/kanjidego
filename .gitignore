@@ -1,0 +1,17 @@
+# NW.js バイナリ（デプロイ不要）
+icudtl.dat
+natives_blob.bin
+nw.pak
+nw_100_percent.pak
+nw_200_percent.pak
+resources.pak
+snapshot_blob.bin
+credits.html
+locales/
+
+# Node.js
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
